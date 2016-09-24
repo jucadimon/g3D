@@ -11,17 +11,25 @@ using System.Drawing.Imaging;
 
 public struct punto2D
         {
-            public float xr, yr; //coordenadas del punto a graficar
+            private readonly float Xr, Yr; //coordenadas del punto a graficar
             
             public punto2D(double x, double y, double z)
             {
-                xr = (float)(y - x * (Math.Sqrt(2) / 2));
-                yr = (float)(z - x * (Math.Sqrt(2) / 2));
+                this.Xr = (float)(y - x * (Math.Sqrt(2) / 2)); //la transformacion
+                this.Yr = (float)(z - x * (Math.Sqrt(2) / 2)); //la transformacion
             }
             public punto2D(punto3D punto)
             {
-                xr = (float)(punto.Y - punto.X * (Math.Sqrt(2) / 2));
-                yr = (float)(punto.Z - punto.X * (Math.Sqrt(2) / 2));
+                this.Xr = (float)(punto.Y - punto.X * (Math.Sqrt(2) / 2));
+                this.Yr = (float)(punto.Z - punto.X * (Math.Sqrt(2) / 2));
+            }
+            
+            public float xr { get { return Xr; } }
+            public float yr { get { return Yr; } }
+            
+            public override string ToString()
+            {
+                return string.Format("({0:G3},{1:G3})", xr, yr);
             }
         }
 public struct punto3D
