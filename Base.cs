@@ -34,13 +34,22 @@ public struct punto2D
         }
 public struct punto3D
         {
-            public double X, Y, Z;//coordenadas en 3D de un punto
+            private readonly double cx, cy, cz; //coordenadas en 3D de un punto
             
             public punto3D(double x, double y, double z)
             {
-                X = x;
-                Y = y;
-                Z = z;
+                this.cx = x;
+                this.cy = y;
+                this.cz = z;
+            }
+            
+            public double X { get { return cx; } }
+            public double Y { get { return cy; } }
+            public double Z { get { return cz; } }
+            
+            public override string ToString()
+            {
+                return string.Format("({0:G3},{1:G3},{2:G3})", X, Y, Z);
             }
         }
 class unitario3D
