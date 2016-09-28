@@ -2,4 +2,15 @@ La teoria 3D a utilizar será la misma que se encuentra en internet, tanto en ma
 dibujado sobre el plano 2D será usando unas transformaciones lineales de R3 en R2, así:
 
 1.Proyecciones Caballeras (angulos de 45°)
+
+p3D(x,y,z) => p2D(xr,yr)
+xr = y + x * Cos(t)
+yr = z + x * Cos(t)
+Dónde t = 45°
+
 2.Proyecciones Isometricas (angulos de 30°)
+
+p3D(x,y,z) => p2D(xr,yr)
+xr = y * Cos(t) - x * Cos(t)
+yr = z + x * Cos(t) + y * Sin(t)
+Dónde t = 30°
