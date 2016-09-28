@@ -8,6 +8,14 @@ xr = y + x * Cos(t)
 yr = z + x * Cos(t)
 Dónde t = 45°
 
++z
+^         +x
+!        /
+!      /
+!    /
+!  / t = 45°
+!/---------------->+y
+
 2.Proyecciones Isometricas (angulos de 30°)
 
 p3D(x,y,z) => p2D(xr,yr)
