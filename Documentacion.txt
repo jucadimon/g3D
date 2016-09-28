@@ -1,5 +1,6 @@
 La teoria 3D a utilizar será la misma que se encuentra en internet, tanto en matrices, vectores, proyecciones:
 
+http://www.regeo.uji.es/proyectos/pfc_Muniz.pdf
 https://es.wikipedia.org/wiki/Tridimensional
 
 
