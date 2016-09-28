@@ -1,6 +1,11 @@
 La teoria 3D a utilizar será la misma que se encuentra en internet, tanto en matrices, vectores, proyecciones:
 
 http://www.regeo.uji.es/proyectos/pfc_Muniz.pdf ((SISTEMA AXONOMÉTRICO pag 27))
+-https://www.researchgate.net/publication/228583600_RECONSTRUCCION_DE_MODELOS_SOLIDOS_3D_A_PARTIR_DE_VISTAS_ORTOGRAFICAS_2D_UTILIZANDO_TECNICAS_DE_COMBINACION_DE_CUERPOS
+-
+https://www.researchgate.net/publication/242398209_RECONSTRUCCION_DE_MODELOS_POLIEDRICOS_A_PARTIR_DE_SUS_VISTAS_NORMALIZADAS
+-
+
 https://es.wikipedia.org/wiki/Tridimensional
 
 
